@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[2]:
+
 
 
 #Importando bibliotecas
@@ -11,13 +11,12 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 
-# In[3]:
+
 
 
 #Para importar datos de tracker
 
 
-# In[107]:
 
 
 #Definición de variables:
@@ -25,8 +24,6 @@ m1, m2, m3, m4 = 0.6, 0.6, 0.3, 0.3
 L1, L2, L3, L4 = 1  , 2,  1,  2
 #Hay 4 posibles casos. Inicialmente se utilizará un ángulo pequeño
 
-
-# In[116]:
 
 
 #Encontrando los ángulos donde sen(x) = x con un margen de error del 3%:
@@ -41,8 +38,6 @@ for i in range(0, len(x)):
         print("Es posible aproximar hasta que el ángulo valga", x[i-1])
         break
 
-
-# In[140]:
 
 
 #Caso 1, con m1 y L1:
@@ -68,8 +63,6 @@ for i in range(0,len(time)-1):
     
     
 
-
-# In[ ]:
 
 
 
